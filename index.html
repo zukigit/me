@@ -6,132 +6,180 @@
 <title>Htoo Zaw Aung - Portfolio</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f8f9fa; }
-  .container { max-width: 900px; margin: auto; padding: 20px; background: white; }
-  h1, h2, h3, h4 { color: #0077b6; }
-  img.profile { width: 180px; height: 180px; border-radius: 50%; border: 4px solid #0077b6; object-fit: cover; }
-  .top-section { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
-  .social-icons a { margin-right: 10px; color: black; font-size: 28px; }
-  .btn-download { background: #0077b6; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; }
-  hr { border: 0; height: 1px; background: #ccc; margin: 20px 0; }
-  .badges img { margin: 3px; }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  .resume-btn {
+    display: inline-block;
+    background-color: white;
+    color: #0077b6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .resume-btn:hover {
+    background-color: #e6e6e6;
+  }
+  section {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+  }
+  h2 {
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 5px 0;
+  }
+  .contact a {
+    color: #0077b6;
+    text-decoration: none;
+  }
+  .badges img {
+    margin: 3px;
+  }
+  footer {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
 </style>
 </head>
 <body>
 
-<div class="container">
+<header>
+  <img src="images/me.jpg" alt="Htoo Zaw Aung">
+  <h1>Htoo Zaw Aung (24 yrs)</h1>
+  <p>Software Engineer</p>
+  <p>
+    <a href="https://github.com/zukigit"><i class="fa fa-github" style="font-size:28px;color:white;margin-right:10px;"></i></a>
+    <a href="https://www.linkedin.com/in/zukilink/"><i class="fa fa-linkedin" style="font-size:28px;color:white;margin-right:10px;"></i></a>
+    <a href="https://www.facebook.com/zukidono"><i class="fa fa-facebook-square" style="font-size:28px;color:white;"></i></a>
+  </p>
+  <a href="resumes/htoozawaung.pdf" download class="resume-btn">📄 Download Resume</a>
+</header>
 
-<div class="top-section">
-  <img src="images/me.jpg" alt="Htoo Zaw Aung" class="profile">
-  <div>
-    <h1>Htoo Zaw Aung (24 yrs)</h1>
-    <p><strong>Software Engineer</strong></p>
-    <div class="social-icons">
-      <a href="https://github.com/zukigit"><i class="fa fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/zukilink/"><i class="fa fa-linkedin"></i></a>
-      <a href="https://www.facebook.com/zukidono"><i class="fa fa-facebook-square"></i></a>
-    </div>
-    <p><a href="resumes/htoozawaung.pdf" download class="btn-download">📄 Download Resume</a></p>
+<section class="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:zukidono@gmail.com">zukidono@gmail.com</a></p>
+  <p>Phone: +66 939 402 979</p>
+  <p>Address: Bang Chak, Bangkok, Thailand</p>
+  <p>Nationality: Myanmar</p>
+  <p>Languages: Burmese, English, Japanese</p>
+</section>
+
+<section>
+  <h2>Objective</h2>
+  <p>To develop excellent software and provide proper solutions for business challenges, including performance and infrastructure issues, while creating maintainable and reliable systems.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <h3>Programming Languages</h3>
+  <div class="badges">
+    <img src="https://img.shields.io/badge/Golang-black?logo=go">
+    <img src="https://img.shields.io/badge/Java-black?logo=coffeescript&logoColor=red">
+    <img src="https://img.shields.io/badge/Typescript-black?logo=typescript">
+    <img src="https://img.shields.io/badge/Bash-black?logo=gnubash">
+    <img src="https://img.shields.io/badge/Python-black?logo=python">
+    <img src="https://img.shields.io/badge/C%20programming-black?logo=c">
+    <img src="https://img.shields.io/badge/Dart-black?logo=dart&logoColor=blue">
   </div>
-</div>
 
-<hr>
+  <h3>Frameworks</h3>
+  <div class="badges">
+    <img src="https://img.shields.io/badge/Gin-black?logo=gin">
+    <img src="https://img.shields.io/badge/Spring-black?logo=spring">
+    <img src="https://img.shields.io/badge/Angular-black?logo=angular&logoColor=red">
+    <img src="https://img.shields.io/badge/Flutter-black?logo=flutter&logoColor=blue">
+  </div>
 
-<h3>📍 Contact</h3>
-<p><strong>Email:</strong> <a href="mailto:zukidono@gmail.com">zukidono@gmail.com</a><br>
-<strong>Address:</strong> Bang Chak, Bangkok, Thailand<br>
-<strong>Phone:</strong> +66939402979<br>
-<strong>Nationality:</strong> Myanmar<br>
-<strong>Languages:</strong> Burmese, English, Japanese</p>
+  <h3>Linux Distributions</h3>
+  <div class="badges">
+    <img src="https://img.shields.io/badge/Debian-black?logo=debian&logoColor=red">
+    <img src="https://img.shields.io/badge/RedHat-black?logo=redhat&logoColor=red">
+  </div>
 
-<hr>
+  <h3>DevOps & Cloud</h3>
+  <div class="badges">
+    <a href="https://hub.docker.com/u/zukidocker"><img src="https://img.shields.io/badge/Docker-black?logo=docker"></a>
+    <a href="https://gitlab.com/zukigit"><img src="https://img.shields.io/badge/GitLab_CI-black?logo=gitlab"></a>
+    <img src="https://img.shields.io/badge/Kubernetes-black?logo=kubernetes">
+    <img src="https://img.shields.io/badge/AWS-black?logo=AmazonAWS">
+    <img src="https://img.shields.io/badge/GCP-black?logo=googlecloud">
+    <img src="https://img.shields.io/badge/Ansible-black?logo=ansible&logoColor=red">
+  </div>
+</section>
 
-<h3>🎯 Objective</h3>
-<p>To develop excellent software and provide proper solutions for business challenges, including performance and infrastructure issues, while creating maintainable and reliable systems.</p>
+<section>
+  <h2>Experience</h2>
+  <h3>Technical Lead — DAT (Feb 2023–Present)</h3>
+  <ul>
+    <li>Developed and maintained Jobarranger software for Japanese clients.</li>
+    <li>Created automation tools using Go, Shell, and Docker.</li>
+    <li>Managed infrastructure for testing and deployment.</li>
+  </ul>
 
-<hr>
+  <h3>Freelance</h3>
+  <ul>
+    <li>Built CI/CD pipelines on GCP.</li>
+    <li>Designed cloud infrastructure solutions.</li>
+  </ul>
 
-<h3>🛠 Skills</h3>
+  <h3>Internship — Ace Inspiration (Sep 2022–Jan 2023)</h3>
+  <ul>
+    <li>Developed Java Spring Boot and Angular-based web applications.</li>
+    <li>Performed bug fixing, enhancements, and testing.</li>
+  </ul>
+</section>
 
-<h4>Programming Languages:</h4>
-<div class="badges">
-<img src="https://img.shields.io/badge/Golang-black?logo=go">
-<img src="https://img.shields.io/badge/Java-black?logo=coffeescript&logoColor=red">
-<img src="https://img.shields.io/badge/Typescript-black?logo=typescript">
-<img src="https://img.shields.io/badge/Bash-black?logo=gnubash">
-<img src="https://img.shields.io/badge/Python-black?logo=python">
-<img src="https://img.shields.io/badge/C%20programming-black?logo=c">
-<img src="https://img.shields.io/badge/Dart-black?logo=dart&logoColor=blue">
-</div>
+<section>
+  <h2>Education</h2>
+  <ul>
+    <li>B.Sc. in Information Technology (Ongoing), European International University</li>
+    <li>Former B.C.Sc. student, University of Computer Studies, Loikaw</li>
+  </ul>
+</section>
 
-<h4>Frameworks:</h4>
-<div class="badges">
-<img src="https://img.shields.io/badge/Gin-black?logo=gin">
-<img src="https://img.shields.io/badge/Spring-black?logo=spring">
-<img src="https://img.shields.io/badge/Angular-black?logo=angular&logoColor=red">
-<img src="https://img.shields.io/badge/Flutter-black?logo=flutter&logoColor=blue">
-</div>
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li><a href="https://www.jobarranger.info/">Jobarranger</a></li>
+    <li><a href="https://github.com/zukigit/ssh-copy-id-win">SSH-Copy-ID for Windows</a></li>
+    <li><a href="https://github.com/zukigit/rpm_env">Automatic RPM Creation Tool</a></li>
+    <li><a href="https://github.com/zukigit/deb_env">Automatic DEB Creation Tool</a></li>
+  </ul>
+</section>
 
-<h4>Linux Distributions:</h4>
-<div class="badges">
-<img src="https://img.shields.io/badge/Debian-black?logo=debian&logoColor=red">
-<img src="https://img.shields.io/badge/RedHat-black?logo=redhat&logoColor=red">
-</div>
+<footer>
+  &copy; 2025 Htoo Zaw Aung
+</footer>
 
-<h4>DevOps & Cloud:</h4>
-<div class="badges">
-<a href="https://hub.docker.com/u/zukidocker"><img src="https://img.shields.io/badge/Docker-black?logo=docker"></a>
-<a href="https://gitlab.com/zukigit"><img src="https://img.shields.io/badge/GitLab_CI-black?logo=gitlab"></a>
-<img src="https://img.shields.io/badge/Kubernetes-black?logo=kubernetes">
-<img src="https://img.shields.io/badge/AWS-black?logo=AmazonAWS">
-<img src="https://img.shields.io/badge/GCP-black?logo=googlecloud">
-<img src="https://img.shields.io/badge/Ansible-black?logo=ansible&logoColor=red">
-</div>
-
-<hr>
-
-<h3>💼 Experience</h3>
-<h4>Technical Lead — DAT (Feb 2023–Present)</h4>
-<ul>
-  <li>Developed and maintained <strong>Jobarranger</strong> software for Japanese clients.</li>
-  <li>Created automation tools using Go, Shell, and Docker.</li>
-  <li>Managed infrastructure for testing and deployment.</li>
-</ul>
-
-<h4>Freelance</h4>
-<ul>
-  <li>Built CI/CD pipelines on GCP.</li>
-  <li>Designed cloud infrastructure solutions.</li>
-</ul>
-
-<h4>Internship — Ace Inspiration (Sep 2022–Jan 2023)</h4>
-<ul>
-  <li>Developed Java Spring Boot and Angular-based web applications.</li>
-  <li>Performed bug fixing, enhancements, and testing.</li>
-</ul>
-
-<hr>
-
-<h3>🎓 Education</h3>
-<ul>
-  <li><strong>B.Sc. in Information Technology</strong> (Ongoing), European International University</li>
-  <li>Former <strong>B.C.Sc.</strong> student, University of Computer Studies, Loikaw</li>
-</ul>
-
-<hr>
-
-<h3>📂 Projects</h3>
-<ul>
-  <li><a href="https://www.jobarranger.info/">Jobarranger</a></li>
-  <li><a href="https://github.com/zukigit/ssh-copy-id-win">SSH-Copy-ID for Windows</a></li>
-  <li><a href="https://github.com/zukigit/rpm_env">Automatic RPM Creation Tool</a></li>
-  <li><a href="https://github.com/zukigit/deb_env">Automatic DEB Creation Tool</a></li>
-</ul>
-
-<hr>
-
-<p style="text-align:center;">© 2025 Htoo Zaw Aung</p>
-
-</div>
 </body>
 </html>
